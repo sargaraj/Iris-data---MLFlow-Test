@@ -1,0 +1,11 @@
+name: mlflow_exp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - scikit-learn
+  - pandas
+  - pip
+  - pip:
+      - mlflow
